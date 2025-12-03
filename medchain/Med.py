@@ -7,9 +7,7 @@ from datetime import datetime, timedelta
 import random
 import os
 
-# -----------------------------
-# AWS S3 CONFIG (SAFE VERSION)
-# -----------------------------
+
 # Do NOT hardcode credentials — use environment variables
 AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY_ID")
 AWS_SECRET_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
